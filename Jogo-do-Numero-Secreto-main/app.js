@@ -1,5 +1,5 @@
 let listaNumerosGerados = [];
-let numeroLimite = 1000;
+let numeroLimite = 10000;
 let numeroSecreto = gerarNumeroAleatorio(); // Invocamos a função que gera um número aleatório.
 let numeroTentativas = 1; // Declaramos a variável que armazena o número de tentativas.
 
@@ -21,7 +21,7 @@ function exibirTextoNaTela(tag, texto) { // Declaramos a função que manipula o
 // Função responsável por exibir as mensagens iniciais no HTML.
 function exibirMensagemInicial() { // Declaramos a função que exibe as mensagens iniciais no HTML.
     exibirTextoNaTela('h1', 'Bem-Vindo ao Número Secreto'); // Invocamos a função que exibe textos no HTML.
-    exibirTextoNaTela('p', 'Digite um Número entre 1 e 1000:'); // Invocamos a função que exibe textos no HTML.
+    exibirTextoNaTela('p', 'Digite um Número entre 1 e 10000:'); // Invocamos a função que exibe textos no HTML.
 }
 exibirMensagemInicial(); // Invocamos a função que exibe as mensagens iniciais.
 
